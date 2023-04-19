@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Laboratorio05-Quezada</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="billboard">Billboard</string>
+    <string name="add_new_movie">Add New Movie</string>
+    <string name="star_wars_episodio_3_la_venganza_de_los_sith">Star Wars Episodio 3: La venganza de los sith</string>
+    <string name="_9_8">9.8</string>
+    <string name="calification">Calification</string>
+    <string name="description">Description</string>
+    <string name="category">Category</string>
+    <string name="new_movie">New Movie</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+    <string name="ciencia_ficci_n">Ciencia Ficción</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_nunc_eros_est_tristique_et_urna_eget_ornare_laoreet_justo_etiam_convallis_feugiat_purus_id_venenatis_proin_accumsan_tellus_eget_nulla_blandit_hendrerit_donec_non_sapien_non_neque_accumsan_consectetur_praesent_non_cursus_orci_vivamus_porttitor_consectetur_tincidunt_nunc_porttitor_rutrum_leo_sed_ornare">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eros est, tristique et urna eget, ornare laoreet justo. Etiam convallis feugiat purus id venenatis. Proin accumsan tellus eget nulla blandit hendrerit. Donec non sapien non neque accumsan consectetur. Praesent non cursus orci. Vivamus porttitor consectetur tincidunt. Nunc porttitor rutrum leo sed ornare.</string>
 </resources>
