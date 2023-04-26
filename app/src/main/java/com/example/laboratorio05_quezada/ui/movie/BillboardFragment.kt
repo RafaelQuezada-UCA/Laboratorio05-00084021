@@ -1,13 +1,13 @@
-package com.example.laboratorio05_quezada
+package com.example.laboratorio05_quezada.ui.movie
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import androidx.cardview.widget.CardView
 import androidx.navigation.findNavController
+import com.example.laboratorio05_quezada.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 

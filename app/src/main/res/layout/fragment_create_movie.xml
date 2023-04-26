@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#6727B0"
-    tools:context=".CreateMovieFragment">
+    tools:context=".ui.movie.CreateMovieFragment">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout4"
@@ -18,6 +18,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout3">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/insert_qualification_movie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/card_layout"
@@ -37,6 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/insert_description_movie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/card_layout"
@@ -56,6 +58,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/insert_category_movie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/card_layout"
@@ -88,6 +91,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/insert_name_movie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/card_layout"
@@ -97,7 +101,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/submit_movie_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"

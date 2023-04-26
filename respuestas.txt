@@ -1,0 +1,4 @@
+1.Es un patron que aisla la capa de datos del resto de la aplicacion y que separa los componentes visuales de los de datos, este nos ayuda a resolver conflictos entre las fuentes de datos.
+
+
+2.Es un contenedor de estado que nos muestra el estado dela UI y encapsula la logica empresarial relacionada. Tambien actua como intemermedio entre la capa de datos y la interfaz de usuario, por eso se llama ViewModel y estos se comunican por medio de un repository que brinda los datos
