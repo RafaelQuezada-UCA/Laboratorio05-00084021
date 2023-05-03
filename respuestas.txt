@@ -1,4 +1,26 @@
+LABORATORIO 6
 1.Es un patron que aisla la capa de datos del resto de la aplicacion y que separa los componentes visuales de los de datos, este nos ayuda a resolver conflictos entre las fuentes de datos.
 
-
 2.Es un contenedor de estado que nos muestra el estado dela UI y encapsula la logica empresarial relacionada. Tambien actua como intemermedio entre la capa de datos y la interfaz de usuario, por eso se llama ViewModel y estos se comunican por medio de un repository que brinda los datos
+
+
+
+LABORATORIO 7
+1.Una de las principales ventajas es que respeta el ciclo de vida de otros componentes de las apps, entonces este solo actualiza los observadores de coponentes que tienen un estado de ciclo de vida activa.
+-Garantiza que la IU coincida con el estado de los datos
+-Sin fugas de memoria
+-Actividades detenidas para evitar las fallas
+-No más control manual del ciclo de vida
+-Datos siempre actualizados
+-Cambios de configuración apropiados
+
+2.Utiliza el patron de observador
+
+3.Se debe de agregar las siguientes lineas de codigo en el build.gradle(Module:app)
+DataBinding {
+        enabled true
+    }
+esto dentro de la seccion android{...}
+
+4.Es una funcion que permite vincular los elementos de la UI de una app directamente a los datos de ella. Una de las principales ventajas de este es la sintaxis especial que se usa crear una conexion entre la UI y los datos y que facilita la implementacion de los patrones y por esto es mas eficiente ya que reduce la necesidad de referencia y hace la app menos intensiva. Y otra gran ventaja es que los elementos de la UI no se tienen que actualizar manualmente.
+

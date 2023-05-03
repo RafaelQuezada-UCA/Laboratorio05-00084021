@@ -8,39 +8,37 @@ import android.view.ViewGroup
 import androidx.cardview.widget.CardView
 import androidx.navigation.findNavController
 import com.example.laboratorio05_quezada.R
+import com.example.laboratorio05_quezada.databinding.FragmentBillboardBinding
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 
 class BillboardFragment : Fragment() {
 
-    private lateinit var  actionToMovie: CardView
-    private lateinit var actionToNew: FloatingActionButton
+    /*private lateinit var  actionToMovie: CardView
+    private lateinit var actionToNew: FloatingActionButton*/
+
+    private lateinit var binding: FragmentBillboardBinding
 
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_billboard, container, false)
+        binding = FragmentBillboardBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        bind(view)
 
-        actionToMovie.setOnClickListener{
-            view.findNavController().navigate(R.id.action_billboardFragment_to_movieFragment)
+        binding.actionToMovie.setOnClickListener{
+            it.findNavController().navigate(R.id.action_billboardFragment_to_movieFragment)
         }
-        actionToNew.setOnClickListener{
-            view.findNavController().navigate(R.id.action_billboardFragment_to_createMovieFragment)
+        binding.actionToNew.setOnClickListener{
+            it.findNavController().navigate(R.id.action_billboardFragment_to_createMovieFragment)
         }
     }
 
-    private fun bind(view: View){
-        actionToMovie = view.findViewById(R.id.action_to_movie)
-        actionToNew = view.findViewById(R.id.action_to_new)
-    }
 
 
 
